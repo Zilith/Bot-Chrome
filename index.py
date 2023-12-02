@@ -1,10 +1,10 @@
-import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import time # Importar la libreria de tiempo
+from selenium import webdriver # Importar la libreria de webdriver
+from selenium.webdriver.common.by import By # Importar la libreria de By
+from selenium.webdriver.common.keys import Keys # Importar la libreria de Keys
+from selenium.webdriver.chrome.service import Service # Importar la libreria de Service
+from selenium.webdriver.support.ui import WebDriverWait # Importar la libreria de WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC # Importar la libreria de expected_conditions
 
 
 service = Service("drivers/chromedriver.exe") # Crear el servicio
